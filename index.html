@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>你的名字 | 个人简历</title>
+  <meta
+    name="description"
+    content="一页式在线简历网站，展示个人介绍、项目经历、技能、工作经历与联系方式。"
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero" id="top">
+      <nav class="nav">
+        <a class="brand" href="#top">Resume</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          菜单
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">关于我</a>
+          <a href="#experience">经历</a>
+          <a href="#projects">项目</a>
+          <a href="#skills">技能</a>
+          <a href="#contact">联系</a>
+        </div>
+      </nav>
+
+      <div class="hero-grid">
+        <section class="hero-copy reveal">
+          <p class="eyebrow">在线简历 / Personal Website</p>
+          <h1>你好，我是<span>你的名字</span></h1>
+          <p class="hero-text">
+            一名前端 / 全栈 / 产品型工程师，擅长把复杂需求整理成清晰、可落地、体验良好的产品。
+            这是一份适合投递、展示和分享的个人简历网站。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">联系我</a>
+            <a class="button secondary" href="#projects">查看项目</a>
+          </div>
+          <ul class="highlights">
+            <li>3+ 年项目经验</li>
+            <li>擅长 Web 产品落地</li>
+            <li>关注设计与工程质量</li>
+          </ul>
+        </section>
+
+        <aside class="profile-card reveal">
+          <div class="avatar">YN</div>
+          <h2>你的名字</h2>
+          <p>前端开发工程师</p>
+          <dl>
+            <div>
+              <dt>城市</dt>
+              <dd>上海 / 可远程</dd>
+            </div>
+            <div>
+              <dt>邮箱</dt>
+              <dd>hello@example.com</dd>
+            </div>
+            <div>
+              <dt>学历</dt>
+              <dd>某某大学 · 计算机相关专业</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="section reveal" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>关于我</h2>
+        </div>
+        <div class="about-card">
+          <p>
+            我喜欢把业务目标、用户体验和技术实现放在一起思考。相比只“完成功能”，我更在意信息结构是否清晰、
+            页面是否顺手、代码是否便于持续迭代。
+          </p>
+          <p>
+            你可以把这里替换成你的真实简介，例如擅长方向、工作年限、主要行业经验，以及你想让招聘方快速记住的优势。
+          </p>
+        </div>
+      </section>
+
+      <section class="section reveal" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>工作经历</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">2023 - 至今</span>
+            <div class="timeline-content">
+              <h3>某科技公司 · 前端开发工程师</h3>
+              <p>
+                负责核心业务系统的前端架构、页面开发与体验优化，推动组件沉淀、性能优化和跨团队协作。
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">2021 - 2023</span>
+            <div class="timeline-content">
+              <h3>某互联网公司 · Web 开发工程师</h3>
+              <p>
+                参与多端项目开发，负责活动页、后台系统和数据看板的实现，逐步独立承担项目交付。
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>代表项目</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-tag">项目 01</p>
+            <h3>企业后台系统重构</h3>
+            <p>
+              负责页面结构升级、组件库统一和交互优化，提升开发效率并降低后续维护成本。
+            </p>
+            <ul>
+              <li>主导 30+ 页面迁移与重构</li>
+              <li>首屏性能提升约 35%</li>
+              <li>抽离通用组件与表单方案</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <p class="project-tag">项目 02</p>
+            <h3>品牌官网与活动落地页</h3>
+            <p>
+              从视觉稿到上线交付，负责响应式开发、动画实现和埋点接入，兼顾品牌表达与转化目标。
+            </p>
+            <ul>
+              <li>移动端和桌面端适配完整</li>
+              <li>支持运营自主配置部分内容</li>
+              <li>上线周期缩短约 25%</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <p class="project-tag">项目 03</p>
+            <h3>数据可视化看板</h3>
+            <p>
+              面向业务决策场景设计图表与信息层级，帮助团队更快定位关键指标与异常数据。
+            </p>
+            <ul>
+              <li>重构数据展示逻辑</li>
+              <li>增强筛选与交互反馈</li>
+              <li>支持大屏展示场景</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>技能栈</h2>
+        </div>
+        <div class="skill-layout">
+          <div class="skill-panel">
+            <h3>开发</h3>
+            <div class="chip-list">
+              <span>HTML5</span>
+              <span>CSS3 / Sass</span>
+              <span>JavaScript / TypeScript</span>
+              <span>React / Vue</span>
+              <span>Node.js</span>
+              <span>REST API</span>
+            </div>
+          </div>
+          <div class="skill-panel">
+            <h3>能力</h3>
+            <div class="chip-list">
+              <span>组件化开发</span>
+              <span>响应式设计</span>
+              <span>性能优化</span>
+              <span>可维护性设计</span>
+              <span>跨团队协作</span>
+              <span>需求拆解</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact reveal" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>联系我</h2>
+        </div>
+        <div class="contact-card">
+          <p>
+            如果你正在寻找一位认真、稳定、能把事情落地的人，可以通过下面的方式联系我。
+          </p>
+          <div class="contact-links">
+            <a href="mailto:hello@example.com">hello@example.com</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
